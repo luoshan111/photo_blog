@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="摄影师与程序员的个人门户。浏览摄影作品，阅读技术博客。">
+  <meta name="theme-color" content="#1d1f1e">
+  <title>个人门户 · 摄影与技术</title>
+  <link rel="stylesheet" href="./src/modules/portal/styles.css">
+  <script type="module" src="./src/modules/portal/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳至内容</a>
+  <div class="page">
+    <header class="header">
+      <a class="brand" href="./" id="brand">个人站</a>
+      <nav aria-label="主导航">
+        <a href="./" aria-current="page">门户</a>
+        <a data-module="photography" href="./design-demos/gallery/index.html#photography">摄影作品</a>
+        <a data-module="blog" href="./design-demos/technical-blog/index.html">技术博客</a>
+        <a href="#about">关于</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="headline">
+        <div class="intro">
+          <div>
+            <p class="identity">摄影师 / 程序员</p>
+            <h1 id="headline">先看见，<br>再慢慢读。</h1>
+            <p class="description" id="description">用照片记录所见，用代码探索想法。<br>这里是我的摄影作品与技术文章的入口。</p>
+            <a class="hero-link" data-module="photography" href="./design-demos/gallery/index.html#photography"><span>浏览摄影作品</span><span aria-hidden="true">↗</span></a>
+            <a class="secondary-link" data-module="blog" href="./design-demos/technical-blog/index.html">阅读技术博客 <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="intro-foot">两个独立空间，<br>从你感兴趣的一面开始。</p>
+        </div>
+        <figure class="hero-photo">
+          <a class="photo-link" data-module="photography" href="./design-demos/gallery/index.html#photography" aria-label="浏览摄影作品">
+            <img id="cover" src="./public/portal/cover.jpg" width="1800" height="1200" alt="群山与云层，摄影演示素材" fetchpriority="high">
+            <span class="image-fallback" hidden>封面暂未加载</span>
+          </a>
+          <figcaption><span id="cover-caption">山野 / 演示选片</span><span>Unsplash 演示 · 非本人作品</span></figcaption>
+        </figure>
+      </section>
+      <section class="destinations" aria-label="独立站点入口">
+        <a class="destination" data-module="photography" href="./design-demos/gallery/index.html#photography">
+          <div><h2>摄影作品</h2><p>相册、系列与光影记录。<br>把空间留给照片。</p></div><span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="destination" data-module="blog" href="./design-demos/technical-blog/index.html">
+          <div><h2>技术博客</h2><p>编程实践、软件设计与项目复盘。<br>把问题和解决过程写下来。</p></div><span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </section>
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div><h2 id="about-title">关于我</h2><p id="bio">摄影师，也是一名程序员。<br>个人介绍与经历待补充。</p></div>
+        <div><h2>联系</h2><p id="contact-empty">联系方式待填写。</p><div id="contact-links"></div></div>
+      </section>
+    </main>
+    <footer><span id="footer-name">个人站 · 摄影与技术</span><span>门户初版 · 站点入口暂连接已完成的预览页</span></footer>
+  </div>
+</body>
+</html>

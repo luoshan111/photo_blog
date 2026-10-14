@@ -1,0 +1,31 @@
+# Dependencies and build output
+node_modules/
+dist/
+.astro/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary browser profiles and caches
+.preview-*/
+.portal-check/
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local design history and generated verification artifacts
+.hallmark/
+docs/*.png
+docs/*-checks.json
+docs/check-portal.mjs
+design-demos/overview.png
+design-demos/*/*-mobile.png
+design-demos/*/photography-desktop.png
+design-demos/verify.mjs
+design-demos/localize-assets.py
