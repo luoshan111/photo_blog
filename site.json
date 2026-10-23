@@ -1,0 +1,17 @@
+{
+  "name": "个人站",
+  "url": "https://www.yjhtest.xyz",
+  "description": "用照片记录所见，用代码探索想法。\n这里是我的摄影作品与技术文章的入口。",
+  "bio": "摄影师，也是一名程序员。\n个人介绍与经历待补充。",
+  "contacts": [],
+  "avatar": null,
+  "motion": { "enabled": true, "introSeconds": 4, "photographySeconds": 0.9, "blogSeconds": 1.6, "contactSeconds": 1.1 },
+  "modules": { "photography": true, "blog": true },
+  "moduleOrder": ["photography", "blog"],
+  "moduleLabels": { "photography": "摄影作品", "blog": "技术博客" },
+  "moduleDescriptions": { "photography": "相册、系列与光影记录。\n把空间留给照片。", "blog": "编程实践、软件设计与项目复盘。\n把问题和解决过程写下来。" },
+  "cover": "public/portal/cover.jpg",
+  "coverAlt": "群山与云层，Unsplash 演示素材，非本人作品",
+  "coverCaption": "山野 / 演示选片",
+  "photoCredit": "Unsplash 演示 · 非本人作品"
+}

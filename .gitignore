@@ -1,5 +1,6 @@
 # Dependencies and build output
 node_modules/
+.local-deps/
 dist/
 .astro/
 
@@ -11,6 +12,9 @@ dist/
 # Temporary browser profiles and caches
 .preview-*/
 .portal-check/
+.preview-dist/
+.qa-browser/
+backups/
 __pycache__/
 *.pyc
 
@@ -24,6 +28,10 @@ Desktop.ini
 docs/*.png
 docs/*-checks.json
 docs/check-portal.mjs
+docs/check-site.mjs
+docs/check-blog.mjs
+docs/check-motion.mjs
+docs/check-live-motion.mjs
 design-demos/overview.png
 design-demos/*/*-mobile.png
 design-demos/*/photography-desktop.png

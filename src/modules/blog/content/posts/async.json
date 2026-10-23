@@ -1,0 +1,11 @@
+{
+  "slug": "async-recovery",
+  "title": "异步请求失败时，页面如何恢复",
+  "description": "从加载、失败提示到重试，梳理一个完整的请求交互。",
+  "date": "2026-10-14",
+  "category": { "slug": "frontend", "name": "前端开发" },
+  "tags": [{ "slug": "javascript", "name": "JavaScript" }, { "slug": "interaction", "name": "交互" }],
+  "draft": false,
+  "published": true,
+  "demo": true
+}

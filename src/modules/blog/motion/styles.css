@@ -1,0 +1,11 @@
+#site-motion.blog{--motion-ink:#090909;--motion-paper:#eee;background:#090909;font-family:Consolas,'Courier New','Microsoft YaHei',monospace}
+#site-motion.blog.has-shader{background:transparent}
+#site-motion.blog .motion-poster{display:none}
+#site-motion.blog .motion-name{font:13px/1.4 Consolas,'Microsoft YaHei',monospace;letter-spacing:3px;text-transform:uppercase}
+#site-motion.blog .motion-heading{top:29%;left:9%;font:700 clamp(58px,8.5vw,128px)/.96 Consolas,'Courier New',monospace;letter-spacing:-.065em;max-width:86%;white-space:pre;line-height:.98;text-wrap:initial;text-shadow:3px 0 #ffffff24}
+#site-motion.blog .motion-caption{left:9%;bottom:17%;font-size:12px;letter-spacing:3px;color:#aaa}
+#site-motion.blog .motion-progress{left:9%;right:9%;bottom:10%;height:2px;background:#333}
+#site-motion.blog .motion-progress span{height:2px;background:#ddd;box-shadow:0 0 12px #ffffff50}
+#site-motion.blog .motion-skip{background:#111;color:#eee;border-color:#555;font:12px/1.5 Consolas,'Microsoft YaHei',monospace}
+#site-motion.blog .motion-skip:focus-visible{outline-color:#fff}
+@media(max-width:650px){#site-motion.blog .motion-heading{left:7%;top:32%;font-size:clamp(52px,14vw,88px)}#site-motion.blog .motion-caption{left:7%;bottom:20%;letter-spacing:1px;max-width:86%}#site-motion.blog .motion-progress{left:7%;right:7%}}

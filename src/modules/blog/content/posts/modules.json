@@ -1,0 +1,11 @@
+{
+  "slug": "module-boundaries",
+  "title": "按模块组织个人站的代码",
+  "description": "把门户、摄影与博客分别维护，让内容和代码各有清晰的边界。",
+  "date": "2026-10-14",
+  "category": { "slug": "software-design", "name": "软件设计" },
+  "tags": [{ "slug": "architecture", "name": "架构" }, { "slug": "personal-site", "name": "个人站" }],
+  "draft": false,
+  "published": true,
+  "demo": true
+}

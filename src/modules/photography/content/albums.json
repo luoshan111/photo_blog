@@ -1,0 +1,21 @@
+[
+  {
+    "slug": "mountains",
+    "title": "山野",
+    "description": "群山、湖泊与远处的天空。示例相册，等待你的真实作品。",
+    "published": true,
+    "photos": [
+      { "id": "mountain", "file": "assets/mountain.jpg", "title": "远山", "alt": "云层下的山脉，Unsplash 演示照片", "caption": "示例照片 · 非本人作品", "published": true },
+      { "id": "lake", "file": "assets/lake.jpg", "title": "水与山", "alt": "湖水倒映山峰，Unsplash 演示照片", "caption": "示例照片 · 非本人作品", "published": true }
+    ]
+  },
+  {
+    "slug": "coast",
+    "title": "海岸",
+    "description": "海浪与开阔的视野。示例相册，等待你的真实作品。",
+    "published": true,
+    "photos": [
+      { "id": "sea", "file": "assets/sea.jpg", "title": "海的边缘", "alt": "海浪与海岸，Unsplash 演示照片", "caption": "示例照片 · 非本人作品", "published": true }
+    ]
+  }
+]

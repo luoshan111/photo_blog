@@ -1,6 +1,7 @@
 import { portal } from './config.js';
 
-document.getElementById('brand').textContent = portal.name;
+const brand = document.getElementById('brand');
+if (!brand.querySelector('.avatar')) brand.textContent = portal.name;
 document.getElementById('footer-name').textContent = `${portal.name} · 摄影与技术`;
 document.title = `${portal.name} · 摄影与技术`;
 for (const key of ['description', 'bio']) document.getElementById(key).textContent = portal[key];
